@@ -1,0 +1,25 @@
+{
+    "name": "rabbitevents/protobuf",
+    "description": "Protobuf extension for RabbitEvents",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "RabbitEvents\\Protobuf\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.2",
+        "rabbitevents/framework": "^9.0",
+        "google/protobuf": "^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "RabbitEvents\\Protobuf\\ProtobufServiceProvider"
+            ]
+        }
+    }
+}
