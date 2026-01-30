@@ -9,7 +9,7 @@
     },
     "require": {
         "php": "^8.2",
-        "rabbitevents/framework": "^9.0",
+        "rabbitevents/foundation": "dev-new-features",
         "google/protobuf": "^3.0"
     },
     "require-dev": {

@@ -6,7 +6,6 @@ use Google\Protobuf\Internal\Message;
 use Mockery;
 use PHPUnit\Framework\TestCase;
 use RabbitEvents\Foundation\Contracts\TransportMessage;
-
 use RabbitEvents\Protobuf\Serialization\ProtobufContentType;
 use RabbitEvents\Protobuf\Serialization\ProtobufSerializer;
 use RabbitEvents\Protobuf\Support\ProtobufPayload;
@@ -39,8 +38,6 @@ class ProtobufSerializerTest extends TestCase
 
     public function testDeserialize(): void
     {
-
-        
         $message = Mockery::mock(TransportMessage::class);
         $message->shouldReceive('getBody')->andReturn('serialized');
         $message->shouldReceive('getProperty')->with('type')->andReturn(SimpleMessage::class);
