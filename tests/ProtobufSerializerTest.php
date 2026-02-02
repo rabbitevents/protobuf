@@ -58,6 +58,10 @@ class ProtobufSerializerTest extends TestCase
 
 class SimpleMessage extends Message
 {
+    public function __construct($data = null)
+    {
+    }
+
     public function mergeFromString($data): void
     {
     }
