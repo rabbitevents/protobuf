@@ -10,7 +10,7 @@
     "require": {
         "php": "^8.2",
         "rabbitevents/foundation": "^9.0",
-        "google/protobuf": "^3.0"
+        "google/protobuf": "^4.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^10.0",
