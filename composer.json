@@ -2,6 +2,7 @@
     "name": "rabbitevents/protobuf",
     "description": "Protobuf extension for RabbitEvents",
     "type": "library",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "RabbitEvents\\Protobuf\\": "src/"
